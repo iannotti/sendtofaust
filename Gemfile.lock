@@ -1,0 +1,16 @@
+PATH
+  remote: .
+  specs:
+    sendtofaust (0.0.1)
+      
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+   
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ldap2ssm!
