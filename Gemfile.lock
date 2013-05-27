@@ -2,12 +2,13 @@ PATH
   remote: .
   specs:
     sendtofaust (0.0.1)
+    builder
       
 
 GEM
   remote: https://rubygems.org/
   specs:
-   
+   builder (3.2.0)
 
 PLATFORMS
   ruby

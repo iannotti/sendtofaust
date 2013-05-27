@@ -43,7 +43,7 @@ private
 def sendData(elements)
   
   EmiStorageRecord.site=$REMOTE_HOST
-  puts "Token token=\"#{$TOKEN}\""
+  $LOG.debug "Token token=\"#{$TOKEN}\""
   EmiStorageRecord.headers['Authorization']="Token token=\"#{$TOKEN}\""
   EmiStorageRecord.timeout=$TIMEOUT.to_i
   EmiStorageRecord.proxy=""

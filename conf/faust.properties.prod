@@ -2,8 +2,7 @@
 #uri=http://lilith.to.infn.it:3030
 uri=http://dgas-dev-24.to.infn.it
 #token
-#token=699973525761600.486011604963571
-token=701454714017200.13929615991846
+token=699898499476600.19044047520023
 #timeout for connection to rest
 timeout=10
 #input data
