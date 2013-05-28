@@ -24,7 +24,7 @@ Gem::Specification.new do |mygem|
    
   mygem.has_rdoc      = true
  
-  mygem.add_dependency "ldap2ssm"
+  mygem.add_dependency "faustcommon"
   mygem.add_dependency "activeresource"
  
 end
