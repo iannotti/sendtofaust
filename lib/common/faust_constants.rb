@@ -80,3 +80,105 @@ class FaustStorageData
     @@UserIdentity
   end
 end
+  
+  
+class DataType
+ STORAGE = 1
+ CLOUD = 2
+ 
+end
+
+class FaustCloudData
+    @@FQAN = "FQAN"
+    @@VMUUID = "VMUUID"
+    @@CloudType = "cloudType"
+    @@CpuCount = "cpuCount" 
+    @@CpuDuration = "cpuDuration"
+    @@Disk = "disk" 
+    @@DiskImage = "diskImage"
+    @@EndTime = "endTime"
+    @@GlobalUserName = "globaluserName"
+    @@LocalVMID = "localVMID"
+    @@Local_group = "local_group"
+    @@Local_user = "local_user"
+    @@Memory = "memory"
+    @@NetworkInbound = "networkInbound"
+    @@NetworkOutBound = "networkOutBound"
+    @@NetworkType = "networkType"
+    @@Publisher_id  = "publisher_id"
+    @@StartTime = "startTime"
+    @@Status = "status"
+    @@StorageRecordId = "storageRecordId"
+    @@SuspendDuration = "suspendDuration"
+    @@WallDuration = "wallDuration"
+     
+    def FaustCloudData.FQAN
+      @@FQAN
+    end
+    def FaustCloudData.VMUUID
+      @@VMUUID
+    end
+    def FaustCloudData.CloudType
+      @@CloudType
+    end
+    def FaustCloudData.CpuCount
+      @@CpuCount
+    end
+    def FaustCloudData.CpuDuration
+      @@CpuDuration
+    end
+    def FaustCloudData.Disk
+      @@Disk
+    end
+    def FaustCloudData.DiskImage
+      @@DiskImage
+    end
+    def FaustCloudData.EndTime
+      @@EndTime
+    end
+    def FaustCloudData.GlobalUserName
+      @@GlobalUserName
+    end
+    def FaustCloudData.LocalVMID
+      @@LocalVMID
+    end
+    def FaustCloudData.Local_group
+      @@Local_group
+    end
+    def FaustCloudData.Local_user
+      @@Local_user
+    end
+    def FaustCloudData.Memory
+      @@Memory
+    end
+    def FaustCloudData.NetworkInbound
+      @@NetworkInbound
+    end
+    def FaustCloudData.NetworkOutBound
+      @@NetworkOutBound
+    end
+    def FaustCloudData.NetworkType
+      @@NetworkType
+    end
+    def FaustCloudData.Publisher_id
+      @@Publisher_id
+    end
+    def FaustCloudData.StartTime
+      @@StartTime
+    end
+    def FaustCloudData.Status
+      @@Status
+    end
+    def FaustCloudData.StorageRecordId
+      @@StorageRecordId
+    end
+    def FaustCloudData.SuspendDuration
+      @@SuspendDuration
+    end
+    def FaustCloudData.WallDuration
+      @@WallDuration
+    end
+     
+      
+  
+end

@@ -8,6 +8,6 @@ token=699242827699200.10184854652133346
 #timeout for connection to rest
 timeout=10
 #input data
-input_path=/home/iannotti/dgas/shellws/ldap2ssm/local/out
+input_storage=/home/iannotti/dgas/shellws/ldap2ssm/local/out
 # log file path
 #logfile=log/logfile.log

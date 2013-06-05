@@ -1,7 +1,0 @@
-#!/usr/bin/env ruby
-require 'common/faust_globalvars'
-require 'senddata/senddatatofaust'
-
-
-senddata = SendDataToFaust.new
-senddata.sendAllData

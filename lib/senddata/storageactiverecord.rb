@@ -1,5 +1,6 @@
 require "rubygems"
 require "active_resource"
+require "utils/starsrrecord"
 require "common/faust_constants"
 
 class EmiStorageRecord < ActiveResource::Base

@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+require 'common/faust_globalvars'
+require 'common/checks'
+require 'common/faust_constants'
+require 'senddata/senddatatofaust'
+
+checkCloudInput
+senddata = SendDataToFaust.new(DataType::CLOUD,$INPUT_CLOUD,$TOKEN_CLOUD)
+senddata.sendData

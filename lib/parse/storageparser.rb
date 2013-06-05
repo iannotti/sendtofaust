@@ -1,8 +1,8 @@
 require "rubygems"
 require "rexml/document"
-require "common/constants"
+require "utils/starsrrecord"
 
-class StarParser
+class StorageParser
   
   def initialize(fileName_in) 
     @fileName = fileName_in

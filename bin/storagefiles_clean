@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+require 'common/faust_globalvars'
+require 'common/checks'
+require 'common/faust_constants'
+require 'senddata/senddatatofaust'
+
+
+checkStorageInput
+senddata = SendDataToFaust.new(DataType::STORAGE,$INPUT_STORAGE)
+senddata.cleanFiles

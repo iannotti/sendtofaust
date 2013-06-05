@@ -2,10 +2,10 @@
 #uri=http://lilith.to.infn.it:3030
 uri=http://dgas-dev-24.to.infn.it
 #token
-token=699898499476600.19044047520023
+token=698423505048000.128805894498473
 #timeout for connection to rest
 timeout=10
 #input data
-input_path=/root/ldapstorage2ssm/local/out
+input_storage=/root/ldapstorage2ssm/local/out
 # log file path
 #logfile=log/logfile.log
